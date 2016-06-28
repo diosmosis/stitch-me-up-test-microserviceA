@@ -11,7 +11,7 @@ services:
     volumes:
       - ..:/microserviceA
     working_dir: /microserviceA
-    command: [npm, start]
+    command: [npm, run, start-mocks]
 
 setup:
   - cd .. && npm install

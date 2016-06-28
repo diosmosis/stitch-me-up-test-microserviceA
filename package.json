@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "start-mocks": "node mocks/index.js"
   },
   "author": "",
   "license": "MIT",
