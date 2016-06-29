@@ -6,8 +6,6 @@ public:
 services:
   web:
     image: node:4
-    ports:
-      - "3000:3000"
     volumes:
       - .:/microserviceA
     working_dir: /microserviceA
