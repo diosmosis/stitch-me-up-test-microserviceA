@@ -10,8 +10,8 @@ services:
       - .:/microserviceA
     working_dir: /microserviceA
     environment:
-      - "MICROSERVICEB_ENDPOINT=http://microserviceB"
-      - "MICROSERVICEC_ENDPOINT=http://microserviceC"
+      - "MICROSERVICEB_ENDPOINT=http://microserviceB:3000"
+      - "MICROSERVICEC_ENDPOINT=http://microserviceC:3000"
     command: [npm, start]
 
 dependencies:
